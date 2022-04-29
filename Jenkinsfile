@@ -4,8 +4,8 @@ pipeline{
     stage("Build"){
       steps {
         echo 'running code'
-        sh 'javac semexam.java'
-        sh 'java semexam'
+        sh 'javac labexam.java'
+        sh 'java labexam'
       }
     }
    stage("Test"){
